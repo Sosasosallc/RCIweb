@@ -1,0 +1,21 @@
+{
+  "name": "practicetailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss styles.css -o wwwroot/css/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.17",
+    "tailwindcss": "^3.4.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "postcss": "^8.4.33",
+    "postcss-cli": "^11.0.0"
+  }
+}
